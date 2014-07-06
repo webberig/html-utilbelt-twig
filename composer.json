@@ -1,0 +1,20 @@
+{
+    "name": "webberig/html-utilbelt-twig",
+    "description": "Provides Twig extensions for the HTML Utilbelt",
+    "require": {
+        "twig/twig": "~1.12",
+        "webberig/html-utilbelt": "~1.0"
+    },
+    "license": "MIT Licence",
+    "authors": [
+        {
+            "name": "webberig",
+            "email": "mathieu@webberig.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Webberig\\HtmlUtilbelt\\Twig": "src/"
+        }
+    }
+}
