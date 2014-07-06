@@ -9,7 +9,7 @@ class GeneralExtension extends \Twig_Extension, Webberig\HtmlUtilbelt\Generator\
     public function getFilters()
     {
         return array(
-            new \Twig_SimpleFilter('abbr', array($this, "abbr"));
+            new \Twig_SimpleFilter('abbr', array($this, "abbr"))
         );
     }
 }
