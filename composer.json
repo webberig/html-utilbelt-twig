@@ -14,7 +14,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Webberig\\HtmlUtilbelt\\Twig": "src/"
+            "Webberig\\HtmlUtilbelt\\Twig\\": "src/"
         }
     }
 }
